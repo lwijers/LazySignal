@@ -1,0 +1,10 @@
+colorama==0.4.6
+iniconfig==2.3.0
+lazyecs @ git+https://github.com/lwijers/LazyECS.git@8ec4a5e7511dc931bd7a30244322fffd42d4353e
+packaging==25.0
+pluggy==1.6.0
+pygame-ce==2.5.6
+Pygments==2.19.2
+pytest==9.0.2
+setuptools==80.9.0
+wheel==0.45.1
