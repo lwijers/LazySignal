@@ -5,29 +5,14 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "lazysignals"
 version = "0.1.0"
-description = "A tiny, dependency-free signal / pub-sub library for Python games, UIs and tools."
-readme = "README.md"
-requires-python = ">=3.10"
-license = { text = "MIT" }
+description = "LazySignals is a tiny, dependency-free signal / pub-sub library for Python."
 authors = [
   { name = "Lennart Wijers" }
 ]
-keywords = ["signals", "events", "pubsub", "game-dev", "ui"]
-classifiers = [
-  "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3 :: Only",
-  "License :: OSI Approved :: MIT License",
-  "Intended Audience :: Developers",
-  "Topic :: Software Development :: Libraries",
-  "Topic :: Games/Entertainment",
-]
-
-dependencies = [
-  # LazySignals has no runtime dependencies.
-]
-
-[project.urls]
-Homepage = "https://github.com/lwijers/LazySignal"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
 
 [tool.setuptools]
-packages = ["lazysignals"]
+packages = ["lazysignal"]
